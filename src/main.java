@@ -8,6 +8,12 @@ public class main {
 		if (i % 2 == 0) {
 			System.out.println("i: " + i);
 		}
+		System.out.println("i: " + i);
+		saludar("Juan");
 	}
+	public static void saludar(String name) {
+		System.out.println("Hola: " + name);
+	}
+
 
 }

@@ -5,7 +5,7 @@ public class main {
 		// TODO Auto-generated method stub
 
 		int i = 1;
-		if (i % 2 == 0) {
+		if (esPar(i)) {
 			System.out.println("i: " + i);
 		}
 		System.out.println("i: " + i);
@@ -15,5 +15,8 @@ public class main {
 		System.out.println("Hola: " + name);
 	}
 
+	public static boolean esPar(int i) {
+		return i%2==0;
+	}
 
 }

@@ -5,7 +5,9 @@ public class main {
 		// TODO Auto-generated method stub
 
 		int i = 0;
-		System.out.println("i: " + i);
+		if (i % 2 == 0) {
+			System.out.println("i: " + i);
+		}
 	}
 
 }
